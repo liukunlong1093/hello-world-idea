@@ -1,7 +1,7 @@
 package com.mes.demo;
 
 /**
- * Demo
+ * 演示代码
  */
 public class Demo {
     private String id;
@@ -25,10 +25,7 @@ public class Demo {
 
     @Override
     public String toString() {
-        return "Demo{" +
-                "id='" + id + '\'' +
-                ", name='" + name + '\'' +
-                '}';
+        return "Demo{" + "id='" + id + '\'' +", name='" + name + '\'' +'}';
     }
 
 }
