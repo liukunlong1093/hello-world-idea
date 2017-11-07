@@ -1,7 +1,7 @@
 package com.mes.structure.adapter.demo2;
 
 /**
- * 中锋
+ * 中锋 翻译中
  */
 public class Center extends Player {
     public Center(String name) {
