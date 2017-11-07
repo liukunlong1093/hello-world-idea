@@ -15,6 +15,5 @@ public class Main {
         p3.attract();
         p3.defense();
 
-
     }
 }
