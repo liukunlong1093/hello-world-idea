@@ -8,6 +8,6 @@ public class GitHubTest {
     public static void main(String[] args){
         System.out.println("GitHub Test!");
         String msg="Test.";
-        System.out.println("-----------ftdsoft.com-----------值=" +msg+ "," + "当前类=GitHubTest.main()");
+        System.out.println("-----------ftdsoft.com-----------值=" +msg+ "," + "当前类=GitHubTest.Main()");
     }
 }

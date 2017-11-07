@@ -9,7 +9,7 @@ public class HelloWorld {
         demo.setId("1");
         demo.setName("小花花花");
         System.out.println("我爱你：HelloWorld");
-        System.out.println("-----------ftdsoft.com-----------值=" +demo.toString()+ "," + "当前类=HelloWorld.main()");
+        System.out.println("-----------ftdsoft.com-----------值=" +demo.toString()+ "," + "当前类=HelloWorld.Main()");
 
     }
 }
