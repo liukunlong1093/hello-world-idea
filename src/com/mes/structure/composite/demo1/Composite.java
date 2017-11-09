@@ -6,7 +6,7 @@ import java.util.List;
 public class Composite extends  Component{
     private List<Component> children= new ArrayList<>();
     public Composite(String name) {
-        super(name);
+       this.name=name;
     }
 
     @Override

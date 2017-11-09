@@ -2,7 +2,7 @@ package com.mes.structure.composite.demo1;
 
 public class Leaf extends  Component{
     public Leaf(String name) {
-        super(name);
+        this.name=name;
     }
 
     @Override
@@ -17,6 +17,11 @@ public class Leaf extends  Component{
 
     @Override
     public void display(int depth) {
-        System.out.println("-"+depth+name);
+        StringBuilder sb=new StringBuilder();
+        for(int i=1;i<=depth;i++){
+            sb.append("-");
+        }
+        sb.append(name);
+        System.out.println(sb.toString());
     }
 }
